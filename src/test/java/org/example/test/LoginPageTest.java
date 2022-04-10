@@ -17,6 +17,6 @@ public class LoginPageTest extends BaseTest {
         Assert.assertEquals(actualTextOfInventoryPage, expectedPageText, "The actual text of the page does not " +
                 "match expected!");
     }
-
 }
+
 

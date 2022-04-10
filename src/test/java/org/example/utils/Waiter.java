@@ -16,13 +16,5 @@ public class Waiter {
     private Waiter() {
     }
 
-    public static void waitForToBeClickable(WebElement element){
-        new FluentWait<>(DriverSingleton.getDriver()).withTimeout(Duration.ofSeconds(WAIT_TIMEOUT_SECONDS))
-                .pollingEvery(Duration.ofMillis(TIMEOUT_SECONDS)).ignoring(NoSuchElementException.class)
-                .until((ExpectedCondition<Boolean>) webDriver -> element.isDisplayed() && element
-                .isEnabled());
-    }
-
-
-
 }
+
