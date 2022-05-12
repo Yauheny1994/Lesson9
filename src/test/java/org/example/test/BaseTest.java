@@ -12,14 +12,15 @@ public class BaseTest {
     protected WebDriver driver;
 
     @BeforeTest
-    public void setUp(){
+    public void setUp() {
         driver = DriverSingleton.getDriver();
     }
 
     @AfterTest
-    public void closeBrowser(){
+    public void closeBrowser() {
         DriverSingleton.closeBrowser();
     }
 }
+
 
 

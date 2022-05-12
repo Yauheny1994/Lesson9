@@ -6,6 +6,11 @@
         <class name="org.example.test.LoginPageTest" />
     </classes>
     </test>
+    <test name="InventoryPageTest" >
+        <classes>
+            <class name="org.example.test.InventoryPageTest" />
+        </classes>
+    </test>
 </suite>
 
 
